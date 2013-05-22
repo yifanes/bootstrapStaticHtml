@@ -5,8 +5,8 @@ bootstrapStaticHtml
 
 screenshot:
 
-!()[/assets/index.png]
+()[/assets/index.png]
 
-!()[/assets/setting.png]
+()[/assets/setting.png]
 
 etc.
