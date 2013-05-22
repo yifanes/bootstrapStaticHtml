@@ -1,0 +1,25 @@
+body{
+	padding-top:60px;
+	padding-bottom:40px;
+}
+h3{
+	font-size:18px;
+	line-height:27px;
+}
+h2 {
+font-size: 24px;
+line-height: 36px;
+}
+.hero-unit{
+	padding:19px;
+}
+.diary_row {
+	margin-bottom:100px;
+}
+.diary-row .bar {
+color: #888;
+margin-bottom: 30px;
+}
+.guanzhu{
+	line-height:55px;
+}

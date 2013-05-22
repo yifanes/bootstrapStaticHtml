@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/diy_css.css" rel="stylesheet">
+  </head>
+  <body>
+     <div class="navbar navbar-inverse navbar-fixed-top">
+     <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="#">我爱长微博</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">首页</a></li>
+          </ul>
+          
+          <ul class="nav pull-right">
+            <li><form class="navbar-search pull-left" action="">
+            <input type="text" class="search-query span2" placeholder="请输入你要搜索的内容">
+          </form></li>
+		  <li><a href='#'>通知<span class="badge badge-info">18</span></a></li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">更过操作 <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div>
+    </div><!-- /navbar-inner -->
+  </div><!-- /navbar -->
+<!--container s-->
+<div id='container' class='container'>
+	<div class='write-form row-fluid'>
+		<div class='span8 offset1'>
+			<form class="form-horizontal">
+			<legend>注册</legend>
+			<div class="control-group">
+				<label class="control-label" for="inputEmail">上传头像</label>
+				<div class="controls">
+				<input type='file'>
+				</div>
+			  </div>
+			  <div class="control-group">
+				<label class="control-label" for="inputEmail">新邮箱</label>
+				<div class="controls">
+				  <input type="text" id="inputEmail" placeholder="Email">
+				</div>
+			  </div>
+			  <div class="control-group">
+				<label class="control-label" for="inputPassword">原密码</label>
+				<div class="controls">
+				  <input type="password" id="inputPassword" placeholder="Password">
+				</div>
+			  </div>
+			  <div class="control-group">
+				<label class="control-label" for="inputPassword">新密码</label>
+				<div class="controls">
+				  <input type="password" id="inputPassword" placeholder="Password">
+				</div>
+			  </div>
+			  <div class="control-group">
+				<div class="controls">
+				  <button type="submit" class="btn btn-danger">确认修改</button>
+				</div>
+			  </div>
+			</form>
+			
+		</div>
+	</div>
+	<footer>
+		<p>网站基于Nodejs开发 版权所有 © www.oyoyos.com 2012-10-01 <a href="/about/">关于我爱长微博 </a><a href="/help/">使用帮助 </a><span>| 友情连接 </span><a href="http://www.oyoyos.com/" target="_blank">虫虫的博客</a></p>
+	</footer>
+</div>
+<!--container e-->
+  </body>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>
