@@ -5,8 +5,10 @@ bootstrapStaticHtml
 
 screenshot:
 
-()[/assets/index.png]
 
-()[/assets/setting.png]
+!(首页页面)[/assets/index.png]
+
+
+!(设置页面)[/assets/setting.png]
 
 etc.
